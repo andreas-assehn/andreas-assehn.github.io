@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andreas Asséhn's Portfolio website</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b237909bb3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </head>
+  <body>
+    <div class="hero-img">
+      <nav>
+        <ul>
+          <li>
+            <h1>
+              <a href="index.html">
+                <span class="fas fa-code" aria-hidden="true"></span>
+                <span>Andreas Asséhn</span>
+              </a>
+            </h1>
+          </li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/andreas-assehn/"
+              target="_blank"
+            >
+              <span class="fab fa-linkedin" aria-hidden="true"></span>
+              <span class="sr-only">LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/andreas-assehn" target="_blank">
+              <span class="fab fa-github-square" aria-hidden="true"></span>
+              <span class="sr-only">Github</span>
+            </a>
+          </li>
+          <!-- <li>
+              <a
+                href="https://www.google.com"
+                target="_blank"
+                class="button"
+                >Resume</a
+              >
+            </li> -->
+        </ul>
+      </nav>
+
+      <section id="intro">
+        <div>
+          <p class="name">Hi, my name is <span>Andreas Asséhn.</span></p>
+          <h2>I build the web.</h2>
+          <p>
+            I'm a full-stack developer specializing in JavaScript and React.
+          </p>
+          <p>Currently, I'm building a mobile app.</p>
+        </div>
+        <div class="lottie-animation">
+          <lottie-player
+            src="https://assets7.lottiefiles.com/packages/lf20_gjRCmXyruI.json"
+            background="transparent"
+            speed="1.5"
+            style="width: 350px; height: 350px"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
+      </section>
+    </div>
+
+    <div class="gradient"></div>
+
+    <div class="section-blue">
+      <section id="projects">
+        <h2>Explore my work</h2>
+        <article>
+          <div class="text">
+            <h4>Latest</h4>
+            <h3>Waggle</h3>
+            <p class="blackbox">
+              Waggle is a mobile view matching app to find playmates for your
+              dog. Search from users in your area and filter based on distance.
+              Once you match with another user you can chat with them and
+              organize a meet or maybe attend an event? Events are also shown by
+              distance and you can create your own. Our algorithm finds dogs
+              similar in size, age, and energy level.
+            </p>
+            <h4>Technologies used include:</h4>
+            <ul>
+              <li>React</li>
+              <li>Socket.io</li>
+              <li>Express</li>
+            </ul>
+          </div>
+          <img src="./img/waggle.png" alt="Screenshot of Waggle." />
+        </article>
+
+        <article class="reverse">
+          <div class="text">
+            <h4>Refactor</h4>
+            <h3>Climbing Crags</h3>
+            <p class="blackbox">
+              Climbing crags is a simple social platform that works on desktop
+              and mobile, used to search and review climbing routes. Comment on
+              visited routes and add your own pictures. Visit the deployed
+              version
+              <a href="https://climbing-crags.vercel.app/" target="_blank"
+                >here</a
+              >.
+            </p>
+            <h4>Technologies used include:</h4>
+            <ul>
+              <li>Next.js</li>
+              <li>TypeScript</li>
+              <li>Cypress.io</li>
+            </ul>
+          </div>
+          <img
+            src="./img/climbing crags.png"
+            alt="Screenshot of Climbing Crags."
+          />
+        </article>
+      </section>
+    </div>
+
+    <div class="gradient"></div>
+
+    <div class="section-plum">
+      <section id="contact">
+        <h2>Contact me</h2>
+        <p>I'm always interested in hearing about new opportunities.</p>
+        <p>
+          <a href="mailto:andreas.assehn@gmail.com" class="button">Email me</a>
+        </p>
+      </section>
+    </div>
+
+    <div class="gradient"></div>
+
+    <footer>
+      <h2>Andreas Asséhn &middot; Developer</h2>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/andreas-assehn/" target="_blank">
+            <span class="fab fa-linkedin" aria-hidden="true"></span>
+            <span class="sr-only">LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/andreas-assehn" target="_blank">
+            <span class="fab fa-github-square" aria-hidden="true"></span>
+            <span class="sr-only">Github</span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:andreas.assehn@gmail.com">
+            <span class="fas fa-envelope" aria-hidden="true"></span>
+            <span class="sr-only">Email</span>
+          </a>
+        </li>
+      </ul>
+      <p><small>&copy; 2022 Andreas Asséhn. All rights reserved.</small></p>
+    </footer>
+  </body>
+</html>
